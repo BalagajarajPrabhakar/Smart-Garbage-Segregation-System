@@ -170,7 +170,7 @@ elif page == "Waste Classifier":
 
                     model = model_arc()
                     model.load_weights(
-                        "C:/Users/Admin/Documents/ece final year project 2026 batch/Smart-Garbage-Segregation/weights/modelnew.h5"
+                        "modelnew.h5"
                     )
 
                     prediction = model.predict(img[np.newaxis,...])
