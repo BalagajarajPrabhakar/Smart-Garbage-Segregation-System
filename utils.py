@@ -15,7 +15,7 @@ import os
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '1'
 
 def gen_labels():
-    train = 'C:/Users/Admin/Documents/ece final year project 2026 batch/Smart-Garbage-Segregation/Data/Train'
+    train = 'Train'
     train_generator = ImageDataGenerator(rescale = 1/255)
 
     train_generator = train_generator.flow_from_directory(train,
